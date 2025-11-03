@@ -11,7 +11,7 @@ hero:
       link: /en/api/
     - theme: alt
       text: Contact Us
-      link: https://api.xyin.online/docs
+      link: /en/contact
 ---
 
 <div class="home-animation-wrapper">

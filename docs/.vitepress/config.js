@@ -27,7 +27,7 @@ export default {
           { text: 'API 文档', link: '/api/' },
           { text: '联系我们', link: '/contact' },
           {
-            text: '联系我们',
+            text: '在线文档',
             items: [
               { text: 'Swagger UI', link: 'https://api.xyin.online/docs', target: '_blank' },
               { text: 'ReDoc', link: 'https://api.xyin.online/redoc', target: '_blank' }
@@ -88,7 +88,7 @@ export default {
           ]
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com' }
+          { icon: 'github', link: 'https://github.com/rontowerdragonsingingZi/XYinAPI' }
         ],
         footer: {
           message: 'XYinAPI 文档转换服务',
@@ -113,7 +113,7 @@ export default {
           { text: 'API Docs', link: '/en/api/' },
           { text: 'Contact', link: '/en/contact' },
           {
-            text: 'Contact Us',
+            text: 'Online Docs',
             items: [
               { text: 'Swagger UI', link: 'https://api.xyin.online/docs', target: '_blank' },
               { text: 'ReDoc', link: 'https://api.xyin.online/redoc', target: '_blank' }
@@ -174,7 +174,7 @@ export default {
           ]
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com' }
+          { icon: 'github', link: 'https://github.com/rontowerdragonsingingZi/XYinAPI' }
         ],
         footer: {
           message: 'XYinAPI Document Conversion Service',
