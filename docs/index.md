@@ -10,6 +10,9 @@ hero:
       text: API 文档
       link: /api/
     - theme: alt
+      text: 获取 API Key
+      link: /apikey
+    - theme: alt
       text: 联系我们
       link: /contact
 ---
@@ -19,3 +22,7 @@ hero:
     <DocumentAnimation />
   </ClientOnly>
 </div>
+
+<ClientOnly>
+  <HomeAdBanner />
+</ClientOnly>

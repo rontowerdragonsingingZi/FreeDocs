@@ -1,12 +1,25 @@
 export default {
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://vitepress.xyin.online'
+  },
   head: [
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/logo.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/logo.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo.png' }],
     ['meta', { name: 'theme-color', content: '#3c82f6' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['script', { src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }]
+    ['meta', { name: 'keywords', content: 'API,文档转换,DOCX,PDF,图片转换,文件转换,在线转换,document conversion,file conversion' }],
+    ['meta', { name: 'author', content: 'XYinAPI' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://vitepress.xyin.online' }],
+    ['meta', { property: 'og:title', content: 'XYinAPI - 文档转换服务' }],
+    ['meta', { property: 'og:description', content: '强大的文档转换服务 - 支持 DOCX、PDF、图片等多种格式互转' }],
+    ['meta', { property: 'og:image', content: 'https://vitepress.xyin.online/images/logo.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['link', { rel: 'canonical', href: 'https://vitepress.xyin.online' }],
+    ['script', { src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }],
+    ['script', { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8275085702635989', crossorigin: 'anonymous' }]
   ],
   vite: {
     server: {
@@ -25,6 +38,7 @@ export default {
         nav: [
           { text: '首页', link: '/' },
           { text: 'API 文档', link: '/api/' },
+          { text: '获取 API Key', link: '/apikey' },
           { text: '联系我们', link: '/contact' },
           {
             text: '在线文档',
@@ -111,6 +125,7 @@ export default {
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'API Docs', link: '/en/api/' },
+          { text: 'Get API Key', link: '/en/apikey' },
           { text: 'Contact', link: '/en/contact' },
           {
             text: 'Online Docs',

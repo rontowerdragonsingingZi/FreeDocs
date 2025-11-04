@@ -10,6 +10,9 @@ hero:
       text: API Docs
       link: /en/api/
     - theme: alt
+      text: Get API Key
+      link: /en/apikey
+    - theme: alt
       text: Contact Us
       link: /en/contact
 ---
@@ -19,4 +22,8 @@ hero:
     <DocumentAnimation />
   </ClientOnly>
 </div>
+
+<ClientOnly>
+  <HomeAdBanner />
+</ClientOnly>
 

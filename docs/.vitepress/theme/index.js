@@ -1,12 +1,18 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import DocumentAnimation from './DocumentAnimation.vue'
+import ApiKeyPage from './ApiKeyPage.vue'
+import AdRedirect from './AdRedirect.vue'
+import HomeAdBanner from './HomeAdBanner.vue'
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
     // 注册全局组件
     app.component('DocumentAnimation', DocumentAnimation)
+    app.component('ApiKeyPage', ApiKeyPage)
+    app.component('AdRedirect', AdRedirect)
+    app.component('HomeAdBanner', HomeAdBanner)
     if (typeof window !== 'undefined') {
       // 等待DOM和Live2D脚本都准备完成后初始化
       const initWhenReady = () => {
