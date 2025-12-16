@@ -38,7 +38,7 @@ VitePress/
 
 ## 相关链接
 
-- API 服务：https://api.xyin.online
+- API 服务：https://vitepress.xyin.online
 - 后端仓库：https://github.com/rontowerdragonsingingZi/LOS-servies
 
 ## License
